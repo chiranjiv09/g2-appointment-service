@@ -24,7 +24,7 @@ pipeline{
 		
 		stage(DockerBuild){
 			steps{
-				sh 'docker build -t 8962311939/g2-appointment-service:appointment-service .'
+				sh 'docker build -t 8962311939/g2-appointment-service-docker:latest .'
 			}
 		}
 		
