@@ -54,6 +54,9 @@ public class Appointment {
 	@Email
 	private String physicianEmail;
 	
+	@NotBlank
+	private String PatientName;
+	
 	
 	@Column(nullable = false, updatable = false)
 	@JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd")
