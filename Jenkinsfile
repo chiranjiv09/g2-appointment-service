@@ -8,7 +8,7 @@ stage('Checkout'){
 
 steps{
 
-git branch: "main", url: https://github.com/chiranjiv09/g2-appointment-service.git'
+git branch: "main", url: 'https://github.com/chiranjiv09/g2-appointment-service.git'
 
 }
 
