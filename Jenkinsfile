@@ -50,7 +50,7 @@ stage('Login') {
 
 steps {
 
-sh 'echo dockerhub00123 | docker login -u 8962311939 --password-stdin'
+sh 'echo dockerhub123 | docker login -u 8962311939 --password-stdin'
 
 }
 
