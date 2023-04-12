@@ -36,11 +36,11 @@ archiveArtifacts 'target/*.jar'
 
 }
 
-stage('DockerBuild') {
+stage('Login') {
 
 steps {
 
-sh 'docker build -t services/g2-appointment-service:latest .'
+sh 'echo dockerhub123 | docker login -u 8962311939 --password-stdin'
 
 }
 
