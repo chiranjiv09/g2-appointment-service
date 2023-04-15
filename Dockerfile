@@ -1,7 +1,7 @@
-
 FROM openjdk:17
 
 EXPOSE 9003
 
-ADD /target/g2-Appointment-service.jar g2-Appointment-service.jar
-ENTRYPOINT [ "java","-jar","/g2-Appointment-service.jar"]
+ADD /target/g2-appointment-service.jar g2-appointment-service.jar
+
+ENTRYPOINT [ "java","-jar","/g2-appointment-service.jar"]

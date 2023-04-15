@@ -157,6 +157,6 @@
 				</configuration>
 			</plugin>
 		</plugins>
-		<finalName>g2-Appointment-service</finalName>
+		<finalName>g2-appointment-service</finalName>
 	</build>
 </project>
